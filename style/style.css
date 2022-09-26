@@ -1,0 +1,74 @@
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 998px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}
+
+#footer {
+    background-color: #25B33f;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.header-bg {
+    height: 180px;
+    background-image: url("../images/header/1`.jpg");
+    margin-bottom: 10px;
+
+}
+
+
+.center {
+    text-align: center;
+    border: 1px solid white;
+}
+
+#size_face {
+    width: 400px;
+    height: 400px;
+
+}
+
+table {
+    width: 500px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border: 2px solid white; /* Прячем рамку вокруг таблицы */
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+
+}
+
+td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid maroon; /* Параметры рамки */
+
+    text-align: center;
+
+
+}
+
+.block-animation {
+    width: 50px;
+    height: 130px;
+    background-color: yellow;
+    transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
+}
+
+.block-animation:hover {
+    width: 972px;
+}
+
+#footer_a{
+    color: blueviolet;
+    background-color: aliceblue;
+}
