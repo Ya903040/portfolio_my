@@ -5,107 +5,87 @@
     <title>system_window</title>
 
 
+    <div class="header-bg">
 
-<div class="header-bg">
+        <a id="footer_a" href="#footer" style="font-size: 80px">footer</a>
 
+    </div>
 
-</div>
-<style>
-    @media screen and (max-width: 1200px){
+    <style>
+        @media screen and (max-width: 1200px) {
 
-}
+        }
 
-@media screen and (max-width: 998px){
+        @media screen and (max-width: 998px) {
 
-}
+        }
 
-@media screen and (max-width: 768px){
+        @media screen and (max-width: 768px) {
 
-}
+        }
 
-@media screen and (max-width: 576px){
+        @media screen and (max-width: 576px) {
 
-}
+        }
 
-.footer{
-    background-color: #25B33f;
-    margin-top: 10px;
-    margin-bottom: 10px; 
+        #footer {
+            background-color: #25B33f;
+            margin-top: 10px;
+            margin-bottom: 10px;
 
-}
+        }
 
-.header-bg{ 
-    height: 180px; 
-    background-color: #25B33f; 
-    margin-bottom: 10px; 
-    background-image: url(../images/header/1`.jpg)  
-    } 
+        .header-bg {
+            height: 180px;
+            background-image: url("images/header/1`.jpg");
+            margin-bottom: 10px;
 
-
-.center {
-    text-align: center;
-    border: 1px solid white;
-}
-
-#size_face {
-    width: 400px;
-    height: 400px;
-
-}
-
-table {
-    width: 500px; /* Ширина таблицы */
-    border-collapse: collapse; /* Убираем двойные линии между ячейками */
-    border: 2px solid white; /* Прячем рамку вокруг таблицы */
-    margin: auto; /* Выравниваем таблицу по центру окна  */
-
-}
-
-td, th {
-    padding: 3px; /* Поля вокруг содержимого таблицы */
-    border: 1px solid maroon; /* Параметры рамки */
-
-    text-align: center;
+        }
 
 
-}
+        .center {
+            text-align: center;
+            border: 1px solid white;
+        }
+
+        #size_face {
+            width: 400px;
+            height: 400px;
+
+        }
+
+        table {
+            width: 500px; /* Ширина таблицы */
+            border-collapse: collapse; /* Убираем двойные линии между ячейками */
+            border: 2px solid white; /* Прячем рамку вокруг таблицы */
+            margin: auto; /* Выравниваем таблицу по центру окна  */
+
+        }
+
+        td, th {
+            padding: 3px; /* Поля вокруг содержимого таблицы */
+            border: 1px solid maroon; /* Параметры рамки */
+
+            text-align: center;
 
 
-#video12 {
-    position: relative;
-    margin-bottom: 110px;
-    padding-bottom: 75%;
-  }
-  #video12 iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-  #video12 div {
-    position: absolute;
-    bottom: -110px;
-    width: 100%;
-    height: 100px;
-    padding: 0;
-    overflow-x: auto;
-    white-space: nowrap;
-    text-align: center;
-  }
-  #video12 img {
-    height: calc(100% - (5px + 1px)*2 - 10px);
-    margin: 0 5px 0 0;
-    padding: 5px;
-    border: 1px solid #555;
-    border-radius: 5px;
-    opacity: .7;
-  }
-  #video12 img:hover {
-    opacity: 1;
-    cursor: pointer;
-  }
-  #video12 img:focus {
-    opacity: .2;
-  }
+        }
+
+        .block-animation {
+            width: 10px;
+            height: 130px;
+            background-color: yellow;
+            transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
+        }
+
+        .block-animation:hover {
+            width: 2000px;
+        }
+
+        #footer_a{
+            color: blueviolet;
+            background-color: aliceblue;
+        }
 
     </style>
 
@@ -113,106 +93,126 @@ td, th {
 
 <body class="center">
 <div>
-<img src="images/face/face.jpg" alt="face" id="size_face">
+    <img src="images/face/face.jpg" alt="face" id="size_face">
 
-<table>
-    <!--    <tr>
-            <th>&nbsp;</th>
-            <th>2004</th>
-            <th>2005</th>
-            <th>2006</th>
-        </tr>-->
-    <tr>
-        <td>Name</td>
-        <td>Suleiman</td>
-    </tr>
+    <table>
+        <!--    <tr>
+                <th>&nbsp;</th>
+                <th>2004</th>
+                <th>2005</th>
+                <th>2006</th>
+            </tr>-->
+        <tr>
+            <td>Name</td>
+            <td>Suleiman</td>
+        </tr>
 
-    <tr>
-        <td>Surname</td>
-        <td>Yasirov</td>
-    </tr>
+        <tr>
+            <td>Surname</td>
+            <td>Yasirov</td>
+        </tr>
 
-    <tr>
-        <td>Age</td>
-        <td>18</td>
-    </tr>
+        <tr>
+            <td>Age</td>
+            <td>18</td>
+        </tr>
 
-    <tr>
-        <td>Gender</td>
-        <td>male</td>
-    </tr>
+        <tr>
+            <td>Gender</td>
+            <td>male</td>
+        </tr>
 
-    <tr>
-        <td>Classification</td>
-        <td>semi-programmer, lord of games || nosov, hidden schemer, reader</td>
-    </tr>
+        <tr>
+            <td>Classification</td>
+            <td>semi-programmer, lord of games || nosov, hidden schemer, reader</td>
+        </tr>
 
-    <tr>
-        <td>Skills</td>
-        <td>python(low-low), sql(medium), c++(low-low), java(low-medium), html(low-medium), css(low-low),
-            sniff(high-high), break(medium-high), fix(medium-low) , etc .......
-        </td>
-    </tr>
+        <tr>
+            <td>Skills</td>
+            <td>python(low-low), sql(medium), c++(low-low), java(low-medium), html(low-medium), css(low-low),
+                sniff(high-high), break(medium-high), fix(medium-low) , etc .......
+            </td>
+        </tr>
 
-    <tr>
-        <td>Combat Skill</td>
-        <td>???</td>
-    </tr>
+        <tr>
+            <td>Combat Skill</td>
+            <td>???</td>
+        </tr>
 
-    <tr>
-        <td>Stamina</td>
-        <td>???</td>
-    </tr>
+        <tr>
+            <td>Stamina</td>
+            <td>???</td>
+        </tr>
 
-    <tr>
-        <td>Intelligence</td>
-        <td>???</td>
-    </tr>
+        <tr>
+            <td>Intelligence</td>
+            <td>???</td>
+        </tr>
 
-    <tr>
-        <td>Force on impact</td>
-        <td>???</td>
-    </tr>
+        <tr>
+            <td>Force on impact</td>
+            <td>???</td>
+        </tr>
 
-    <tr>
-        <td>Skin Color</td>
-        <td>???</td>
-    </tr>
+        <tr>
+            <td>Skin Color</td>
+            <td>???</td>
+        </tr>
 
-    <tr>
-        <td>Speed</td>
-        <td>???</td>
-    </tr>
+        <tr>
+            <td>Speed</td>
+            <td>???</td>
+        </tr>
 
-    <tr>
-        <td>Equipment</td>
-        <td>???</td>
-    </tr>
+        <tr>
+            <td>Equipment</td>
+            <td>???</td>
+        </tr>
 
-</table>
+        <tr>
+            <td>Email</td>
+            <td>suleiman.yasirov@alatoo.edu.kg</td>
+        </tr>
 
-<h2>описание</h2>
-<p>born in Kyrgyzstan. in the Chui region . by nature, he is too lazy (excuse). he won't do anything unless he's ordered to. if you scare him, he will do the job very efficiently</p>
+    </table>
+
+    <h2>описание</h2>
+    <p>born in Kyrgyzstan. in the Chui region . by nature, he is too lazy (excuse). he won't do anything unless he's
+        ordered to. if you scare him, he will do the job very efficiently</p>
 </div>
 
 <div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/zJwbZX4i-N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2>мои проекты</h2>
+    <a href="https://github.com/Ya903040/Projeck_Java-main/tree/main">1: <img src="images/git/icons8-github-64.png" alt="git"></a>
+    <a href="https://github.com/Ya903040/storeApp">2: <img src="images/git/icons8-github-64.png" alt="git"></a>
+</div>
+
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/zJwbZX4i-N4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+</div>
+
+<div>
+    <h2>здесь анимация</h2>
+    <p>она очень простая, просто положите курсор мышки на жёлтую линию и отпустите его </p>
+    <p class="block-animation"></p>
 </div>
 
 </body>
 
-<footer class="footer">
+<footer id="footer">
 
-<div>
-<a href="https://youtu.be/dQw4w9WgXcQ"><img src="images/facebook/icons8-facebook-32.png" alt=""></a>
-<a href="https://youtu.be/dQw4w9WgXcQ"><img src="images/pint/icons8-pinterest-32.png" alt=""></a>
-<a href="https://github.com/Ya903040/portfolio_my"><img src="images/git/icons8-github-32.png" alt="github"></a>
+    <div>
+        <a href="https://youtu.be/dQw4w9WgXcQ"><img src="images/facebook/icons8-facebook-32.png" alt=""></a>
+        <a href="https://youtu.be/dQw4w9WgXcQ"><img src="images/pint/icons8-pinterest-32.png" alt=""></a>
+        <a href="https://github.com/Ya903040/portfolio_my"><img src="images/git/icons8-github-32.png" alt="github"></a>
 
-<a href="https://youtu.be/dQw4w9WgXcQ"><img src="images/reddit/icons8-reddit-32.png" alt=""></a>
-<a href="https://youtu.be/dQw4w9WgXcQ"><img src="images/twitter/icons8-twitter-32.png" alt=""></a>
+        <a href="https://youtu.be/dQw4w9WgXcQ"><img src="images/reddit/icons8-reddit-32.png" alt=""></a>
+        <a href="https://youtu.be/dQw4w9WgXcQ"><img src="images/twitter/icons8-twitter-32.png" alt=""></a>
 
-</div>
-
+    </div>
 
 
 </footer>
