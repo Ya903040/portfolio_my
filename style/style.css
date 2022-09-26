@@ -61,14 +61,16 @@ td, th {
     width: 50px;
     height: 130px;
     background-color: yellow;
-    transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
+    transition: width 0.3s cubic-bezier(0, 0, 1, 1) 500ms;
 }
 
 .block-animation:hover {
     width: 972px;
 }
 
+
 #footer_a{
     color: blueviolet;
     background-color: aliceblue;
+    font-size: 80px;
 }
