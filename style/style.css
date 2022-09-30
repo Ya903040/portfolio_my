@@ -113,7 +113,7 @@ section .loader span {
     left: 0;
     width: 100%;
     height: 100%;
-    transform: rotate(calc(18deg* var(--i)));
+    transform: rotate(calc(17.5deg* var(--i)));
 
 }
 
@@ -132,8 +132,10 @@ section .loader span::before {
     0 0 60px #00ff0d,
     0 0 80px #00ff0d,
     0 0 100px #00ff0d;
+
     animation: animate 2s linear infinite;
     animation-delay: calc(0.1s * var(--i));
+
 }
 @keyframes animate {
     0%{
