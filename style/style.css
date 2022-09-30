@@ -133,7 +133,7 @@ section .loader span::before {
     0 0 80px #00ff0d,
     0 0 100px #00ff0d;
     animation: animate 2s linear infinite;
-    animation-delay: calc(0.1s + var(--i));
+    animation-delay: calc(0.1s * var(--i));
 }
 @keyframes animate {
     0%{
