@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+/*@media screen and (max-width: 1200px) {
 
 }
 
@@ -12,7 +12,8 @@
 
 @media screen and (max-width: 576px) {
 
-}
+}*/
+
 
 #footer {
     background-color: #25B33f;
@@ -22,10 +23,8 @@
 }
 
 .header-bg {
-    height: 180px;
-    background-image: url("../images/header/1`.jpg");
-    margin-bottom: 10px;
-
+    font-size: 80px;
+    background-color: aquamarine;
 }
 
 
@@ -67,14 +66,6 @@ td, th {
 .block-animation:hover {
     width: 972px;
 }
-
-
-#footer_a {
-    color: blueviolet;
-    background-color: aliceblue;
-    font-size: 80px;
-}
-
 
 .animation-section {
     padding: 0;
@@ -214,8 +205,15 @@ section .loader span::before {
     }
 }
 
-#input-invalid{
+#input-invalid {
     font-size: 4rem;
 }
 
 
+@media (max-width: 1200px) {
+    .body {
+        padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
+        font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+        margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
+    }
+}
