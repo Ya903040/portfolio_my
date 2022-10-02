@@ -148,18 +148,69 @@ section .loader span::before {
 }
 
 #input-invalid:invalid {
-    animation: shake .5s;
+    animation: shake 8s;
 }
 
 @keyframes shake {
+    5% {
+        transform: translateX(4rem)
+    }
+    10% {
+        transform: translateX(-4rem)
+    }
+    15% {
+        transform: translateX(4rem)
+    }
+    20% {
+        transform: translateX(-4rem)
+    }
     25% {
-        transform: translateX(8px)
+        transform: translateX(4rem)
+    }
+    30% {
+        transform: translateX(-4rem)
+    }
+    35% {
+        transform: translateX(4rem)
+    }
+    40% {
+        transform: translateX(-4rem)
+    }
+    45% {
+        transform: translateX(4rem)
     }
     50% {
-        transform: translateX(-8px)
+        transform: translateX(-4rem)
+    }
+    55% {
+        transform: translateX(4rem)
+    }
+    60% {
+        transform: translateX(-4rem)
+    }
+    65% {
+        transform: translateX(4rem)
+    }
+    70% {
+        transform: translateX(-4rem)
     }
     75% {
-        transform: translateX(8px)
+        transform: translateX(4rem)
+    }
+    80% {
+        transform: translateX(-4rem)
+    }
+    85% {
+        transform: translateX(4rem)
+    }
+    90% {
+        transform: translateX(-4rem)
+    }
+    95% {
+        transform: translateX(4rem)
+    }
+    100% {
+        transform: translateX(-4rem)
     }
 }
 
