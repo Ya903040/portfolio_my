@@ -19,12 +19,20 @@
     background-color: #25B33f;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 12px;
 
 }
 
 .header-bg {
-    font-size: 80px;
+    font-size: 6rem;
     background-color: aquamarine;
+    border-radius: 12px;
+
+}
+
+.header-bg a {
+    text-decoration: none;
+
 }
 
 
@@ -81,6 +89,7 @@ td, th {
     min-height: 100vh;
     background: #0eab40;
     animation: animateBg 10s linear infinite;
+    border-radius: 12px;
 }
 
 @keyframes animateBg {
@@ -216,4 +225,98 @@ section .loader span::before {
         font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
         margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
     }
+}
+
+#my_project {
+    font-size: 3rem;
+
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    cursor: pointer; /* Pointer/hand icon */
+    background-color: lightseagreen;
+    border-radius: 12px;
+    max-width: 50rem;
+    margin: 0 auto;
+    display: block;
+
+}
+
+#game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    height: 4rem;
+}
+
+#counter {
+    height: 4rem;
+    font-size: 4rem;
+
+}
+
+
+#button {
+    --color: firebrick;
+    --border-color: firebrick;
+    --shadow-color: rgb(112, 20, 20);
+
+    position: relative;
+    font-size: .75rem;
+    width: 200px;
+    height: 75px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2rem;
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    font-family: 'Press Start 2P', monospace;
+    font-weight: bold;
+    background-color: var(--color);
+    box-shadow: 0 -3px var(--color),
+    3px 0 var(--color),
+    0 3px var(--color),
+    -3px 0 var(--color),
+    0 -6px var(--border-color),
+    3px -3px var(--border-color),
+    6px 0 var(--border-color),
+    0 6px var(--border-color),
+    -3px 3px var(--border-color),
+    -6px 0 var(--border-color),
+    -3px -3px var(--border-color),
+    3px 3px var(--border-color),
+    0 9px var(--shadow-color),
+    3px 6px var(--shadow-color),
+    6px 3px var(--shadow-color),
+    0 9px var(--shadow-color),
+    -3px 6px var(--shadow-color),
+    -6px 3px var(--shadow-color);
+}
+
+#button:active {
+    top: 6px;
+    box-shadow: 0 -3px var(--color),
+    3px 0 var(--color),
+    0 3px var(--color),
+    -3px 0 var(--color),
+    0 -6px var(--border-color),
+    3px -3px var(--border-color),
+    6px 0 var(--border-color),
+    0 6px var(--border-color),
+    -3px 3px var(--border-color),
+    -6px 0 var(--border-color),
+    -3px -3px var(--border-color),
+    3px 3px var(--border-color),
+     6px var(--shadow-color),
+    3px 3px var(--shadow-color),
+    6px 0 var(--shadow-color),
+    0 6px var(--shadow-color),
+    -3px 3px var(--shadow-color),
+    -6px 0 var(--shadow-color);
 }
