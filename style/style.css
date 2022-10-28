@@ -283,9 +283,6 @@ section .loader span::before {
 
 }
 
-/*
-test
-*/
 
 #button:active {
     top: 6px;

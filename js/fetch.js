@@ -6,10 +6,6 @@ function myWeatherClick() {
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=f51990e7149906aa689774767bf390da&unit=metric`)
             .then(response => response.json())
             .then(data => {
-                    //document.getElementById('test').innerHTML = JSON.stringify(data);
-                    //console.log((data['weather'][0].description));
-                    //console.log((JSON.stringify(data['main']['temp'])));
-
 
                     let description_weather = ((data['weather'][0].description));
                     let temp = ((data['main']['temp']));

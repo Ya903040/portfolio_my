@@ -2,7 +2,6 @@ let clicks = 0;
 
 
 
-//let display = document.querySelector('#display');
 const button = document.querySelector('#button');
 const counter = document.querySelector('#counter');
 
