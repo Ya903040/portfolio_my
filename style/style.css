@@ -68,11 +68,11 @@ td, th {
     width: 40px;
     height: 130px;
     background-color: yellow;
-    transition: width 3s cubic-bezier(0, 0, 1, 1) 500ms;
+    transition: width 3s cubic-bezier(0, 0, 1, 1) 50ms;
 }
 
 .block-animation:hover {
-    width: 400px;
+    width: 200px;
 }
 
 .animation-section {
@@ -291,3 +291,6 @@ test
 
 }
 
+.input_city{
+    font-size: 4rem;
+}
