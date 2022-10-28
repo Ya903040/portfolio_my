@@ -278,25 +278,8 @@ section .loader span::before {
     color: white;
     font-family: 'Press Start 2P', monospace;
     font-weight: bold;
-    background-color: var(--color);
-    box-shadow: 0 -3px var(--color),
-    3px 0 var(--color),
-    0 3px var(--color),
-    -3px 0 var(--color),
-    0 -6px var(--border-color),
-    3px -3px var(--border-color),
-    6px 0 var(--border-color),
-    0 6px var(--border-color),
-    -3px 3px var(--border-color),
-    -6px 0 var(--border-color),
-    -3px -3px var(--border-color),
-    3px 3px var(--border-color),
-    0 9px var(--shadow-color),
-    3px 6px var(--shadow-color),
-    6px 3px var(--shadow-color),
-    0 9px var(--shadow-color),
-    -3px 6px var(--shadow-color),
-    -6px 3px var(--shadow-color);
+    background-color: lightsalmon;
+
 }
 
 /*
@@ -305,22 +288,5 @@ test
 
 #button:active {
     top: 6px;
-    box-shadow: 0 -3px var(--color),
-    3px 0 var(--color),
-    0 3px var(--color),
-    -3px 0 var(--color),
-    0 -6px var(--border-color),
-    3px -3px var(--border-color),
-    6px 0 var(--border-color),
-    0 6px var(--border-color),
-    -3px 3px var(--border-color),
-    -6px 0 var(--border-color),
-    -3px -3px var(--border-color),
-    3px 3px var(--border-color),
-     6px var(--shadow-color),
-    3px 3px var(--shadow-color),
-    6px 0 var(--shadow-color),
-    0 6px var(--shadow-color),
-    -3px 3px var(--shadow-color),
-    -6px 0 var(--shadow-color);
+
 }
