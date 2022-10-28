@@ -2,7 +2,7 @@ document.querySelector('#button_city').onclick = myWeatherClick;
 
 
 function myWeatherClick() {
-    let city_name = document.querySelector('.i-1').value;
+    let city_name = document.querySelector('.input_city').value;
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=f51990e7149906aa689774767bf390da&unit=metric`)
             .then(response => response.json())
             .then(data => {

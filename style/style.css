@@ -216,6 +216,7 @@ section .loader span::before {
 
 #input-invalid {
     font-size: 4rem;
+    border-color: darkolivegreen;
 }
 
 
@@ -291,6 +292,6 @@ test
 
 }
 
-.input_city{
+.input_city,#button_city{
     font-size: 4rem;
 }
