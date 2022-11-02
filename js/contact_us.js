@@ -1,0 +1,6 @@
+function sendEmail() {
+    alert("ok")
+
+}
+
+

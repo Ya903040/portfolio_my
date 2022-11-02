@@ -24,14 +24,28 @@
 }
 
 .header-bg {
-    font-size: 6rem;
     background-color: aquamarine;
+
+    width: 100%;
+    height: 100%;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: grid;
     border-radius: 12px;
 
 }
 
 .header-bg a {
+
     text-decoration: none;
+    gap: 1rem;
+    margin: 5px;
+    padding: 5px;
+    background-color: olive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
 
 }
 
@@ -42,8 +56,8 @@
 }
 
 #size_face {
-    width: 400px;
-    height: 400px;
+    width: 35%;
+    height: 35%;
 
 }
 
@@ -73,6 +87,10 @@ td, th {
 
 .block-animation:hover {
     width: 200px;
+}
+
+#animation-section {
+    margin: 2rem
 }
 
 .animation-section {
@@ -226,6 +244,8 @@ section .loader span::before {
         font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
         margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
     }
+
+
 }
 
 #my_project {
@@ -289,6 +309,64 @@ section .loader span::before {
 
 }
 
-.input_city,#button_city{
+.input_city, #button_city {
     font-size: 4rem;
 }
+
+#contact_us {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: lightskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact_us_form {
+    background: lightgreen;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+#contact_us_form h2 {
+    color: lightcoral;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#contact_us_form input, #contact_us_form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    background: lightcyan;
+    font-size: 16px;
+
+
+}
+
+#contact_us_form button {
+    padding: 15px;
+    background: lightsalmon;
+    color: lightskyblue;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+
+}
+
