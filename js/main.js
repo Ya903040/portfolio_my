@@ -15,6 +15,7 @@ function start() {
             let color = "#";
             color += Math.random().toString(16).slice(2,8);
             button.style.background = color;
+
         }
     })
 

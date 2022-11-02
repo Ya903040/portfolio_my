@@ -1,8 +1,19 @@
-/*@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
+    .body {
+        padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
+        font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+        margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
+    }
+    #contact_us_form input, #contact_us_form textarea{
+        font-size: 4rem !important;
+    }
+    #contact_us_form button{
+        font-size: 3rem !important;
+    }
 
 }
 
-@media screen and (max-width: 998px) {
+/*@media screen and (max-width: 998px) {
 
 }
 
@@ -12,7 +23,11 @@
 
 @media screen and (max-width: 576px) {
 
+
 }*/
+
+
+
 
 
 #footer {
@@ -25,10 +40,8 @@
 
 .header-bg {
     background-color: aquamarine;
-
     width: 100%;
     height: 100%;
-
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     display: grid;
     border-radius: 12px;
@@ -167,6 +180,7 @@ section .loader span::before {
 
 #input-invalid:invalid {
     animation: shake 8s;
+
 }
 
 @keyframes shake {
@@ -233,20 +247,12 @@ section .loader span::before {
 }
 
 #input-invalid {
-    font-size: 4rem;
+    font-size: 2rem;
     border-color: darkolivegreen;
 }
 
 
-@media (max-width: 1200px) {
-    .body {
-        padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
-        font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
-        margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
-    }
 
-
-}
 
 #my_project {
     font-size: 3rem;
@@ -306,11 +312,12 @@ section .loader span::before {
 
 #button:active {
     top: 6px;
-
 }
-
+.input_city{
+background: lightcoral;
+}
 .input_city, #button_city {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 #contact_us {
