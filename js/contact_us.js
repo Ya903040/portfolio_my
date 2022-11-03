@@ -1,6 +1,5 @@
 function sendEmail() {
-    alert("ok");
-
+    alert("it is working");
 }
 
 

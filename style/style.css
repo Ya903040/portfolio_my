@@ -15,18 +15,20 @@
 
 }
 
-@media only screen and (max-width: 991px){
-    .gallery-item{
+@media only screen and (max-width: 991px) {
+    .gallery-item {
         flex: 33.3% !important;
     }
 }
-@media only screen and (max-width: 768px){
-    .gallery-item{
+
+@media only screen and (max-width: 768px) {
+    .gallery-item {
         flex: 50% !important;
     }
 }
-@media only screen and (max-width: 530px){
-    .gallery-item{
+
+@media only screen and (max-width: 530px) {
+    .gallery-item {
         flex: 100% !important;
     }
 }
@@ -276,7 +278,6 @@ section .loader span::before {
 }
 
 
-
 #counter {
     height: 5rem;
     font-size: 5rem;
@@ -374,7 +375,7 @@ section .loader span::before {
 }
 
 
-.my_gallery{
+#my_gallery {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -382,19 +383,20 @@ section .loader span::before {
     font-family: 'Montserrat', sans-serif;
 }
 
-section.gallery{
+section.gallery {
     position: relative;
     padding: 45px 0;
 }
 
-h2.title{
+h2.title {
     font-size: 44px;
     font-weight: bold;
     text-align: center;
     padding-bottom: 45px;
     position: relative;
 }
-h2.title:after{
+
+h2.title:after {
     content: "";
     position: absolute;
     width: 100px;
@@ -404,7 +406,8 @@ h2.title:after{
     left: 50%;
     transform: translateX(-50%);
 }
-.gallery-list{
+
+.gallery-list {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -412,19 +415,21 @@ h2.title:after{
     font-size: 0;
     margin-top: 30px;
 }
-.gallery-item{
+
+.gallery-item {
     display: block;
     flex: 25%;
     overflow: hidden;
     position: relative;
 }
-.gallery-item-hover{
+
+.gallery-item-hover {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(0, 0, 0, .7);
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -434,13 +439,16 @@ h2.title:after{
     transition: opacity .5s ease;
     z-index: 2;
 }
-.gallery-item:hover .gallery-item-hover{
+
+.gallery-item:hover .gallery-item-hover {
     opacity: 1;
 }
-.gallery-item:hover img{
+
+.gallery-item:hover img {
     transform: scale(1.3) rotate(5deg);
 }
-.gallery-item img{
+
+.gallery-item img {
     max-width: 100%;
     height: auto;
     transition: all .5s ease;
