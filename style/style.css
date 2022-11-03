@@ -1,7 +1,7 @@
 @media only screen and (max-width: 1200px) {
     .body {
-        padding: calc(20px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
-        font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+        padding: calc(10px + (50 - 20) * ((100vw - 320px) / (1200 - 320)));
+        font-size: calc(30px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
         margin-bottom: calc(10px + (20 - 10) * ((100vw - 320px) / (1200 - 320)));
     }
 
@@ -13,24 +13,10 @@
         font-size: 3rem !important;
     }
 
-}
-
-@media only screen and (max-width: 991px) {
     .gallery-item {
         flex: 33.3% !important;
     }
-}
 
-@media only screen and (max-width: 768px) {
-    .gallery-item {
-        flex: 50% !important;
-    }
-}
-
-@media only screen and (max-width: 530px) {
-    .gallery-item {
-        flex: 100% !important;
-    }
 }
 
 #footer {
@@ -52,7 +38,6 @@
 }
 
 .header-bg a {
-
     text-decoration: none;
     gap: 1rem;
     margin: 5px;
@@ -89,10 +74,7 @@ table {
 td, th {
     padding: 3px;
     border: 1px solid maroon;
-
     text-align: center;
-
-
 }
 
 .block-animation {
@@ -259,9 +241,8 @@ section .loader span::before {
 #my_project {
     font-size: 3rem;
 
-    border: 1px solid green; /* Green border */
-    color: white; /* White text */
-    cursor: pointer; /* Pointer/hand icon */
+    border: 1px solid green;
+    color: white;
     background-color: lightseagreen;
     border-radius: 12px;
     max-width: 50rem;
@@ -281,13 +262,9 @@ section .loader span::before {
 #counter {
     height: 5rem;
     font-size: 5rem;
-
 }
 
-
 #button {
-
-
     position: relative;
     font-size: .75rem;
     width: 200px;
@@ -371,9 +348,7 @@ section .loader span::before {
     width: 150px;
     margin: 20px auto 0;
     border-radius: 30px;
-
 }
-
 
 #my_gallery {
     margin: 0;

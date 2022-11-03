@@ -6,6 +6,10 @@ $(".gallery-list").magnificPopup({
     }
 });
 
+function sendEmail() {
+    alert("it is working");
+}
+
 let clicks = 0;
 const button = document.querySelector('#button');
 const counter = document.querySelector('#counter');
