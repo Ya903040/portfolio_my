@@ -1,7 +1,12 @@
+$(".gallery-list").magnificPopup({
+    delegate: "a",
+    type: "image",
+    gallery: {
+        enabled: true
+    }
+});
+
 let clicks = 0;
-
-
-
 const button = document.querySelector('#button');
 const counter = document.querySelector('#counter');
 
